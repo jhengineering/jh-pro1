@@ -4,7 +4,7 @@ function changeLanguage() {
     var language = document.getElementById("language").value;
     if (language == "en") {
       // Change to English
-        window.location.href = "/index.html";
+        window.location.href = "index.html";
     }else if (language == "es") {
       // Change to Español
         window.location.href = "public/es/index.html";
