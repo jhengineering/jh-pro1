@@ -591,7 +591,7 @@ form .btn2 {
         position: relative;
         display: flex;
         font-size: 25px;
-        margin-left: 14cm;
+        margin-left: 12cm;
     }
 
      /*X*/
@@ -600,7 +600,7 @@ form .btn2 {
         display: flex;
         font-size: 25px;
         top: -20%;
-        right: 260%;
+        right: 210%;
     }
 
     /* lat*/
@@ -609,7 +609,7 @@ form .btn2 {
         background: #008080;
         position: fixed;
         top: 0;
-        right: -200px;
+        right: -220px;
         width: 200px;
         height: 200vh;
         padding-top: 40px;
@@ -647,7 +647,7 @@ form .btn2 {
         width: 5%;
         cursor: pointer;
         position: absolute;
-        right: 3cm;
+        right: 5cm;
         top: 2em;
         height: auto;
 }
@@ -658,7 +658,7 @@ form .btn2 {
         position: relative;
         font-size: 14px;
         right: 45%;
-        padding-top: 0%;
+        padding-top: -4%;
         max-width: 100%;
         height: auto;
     }
@@ -682,9 +682,9 @@ form .btn2 {
     /*txt*/  
     #cen-text {
         display: flex;
-        margin-left: 25%;
+        margin-left: 22%;
         font-size: 12px;
-        top: 19em;
+        top: 16em;
         max-width: 100%;
         height: auto;
         
