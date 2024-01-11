@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google" content="notranslate">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JH Engineer</title>
+    <link rel="stylesheet" type="text/css" href="../../style/style.css">
+    <!--<link rel="stylesheet" href="/style/style.css">-->
+    <link rel="shortcut icon" href="/images/faviconjh.png" />
+    <script src="https://kit.fontawesome.com/7406a1b21c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="textsubwe">
+        <div class="container">
+            <a href="#" class="prof"><span>JH</span> Engineering</a>
+        </div>
+    </div>
+    <div class="logo">
+        <img src="/images/LogoJHEP.png" id="logoimg">
+    </div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!---vertical barr----->
+                <ul id="sidemenu">
+                    <!--nav--->
+                    <li><a href="#header" onclick="selectOption()">Début</a></li>
+                    <li><a href="#about" onclick="selectOption()">À propos de</a></li>
+                    <li><a href="#services" onclick="selectOption()">Prestations de service</a></li>
+                    <li><a href="#values" onclick="selectOption()">Valeurs</a></li>
+                    <li><a href="#contact" onclick="selectOption()">Contact</a></li>
+                    <!--X Barr--->
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <!--barr Vertical---->
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+    </div>
+    <!--icon moon-->
+    <div class="moon">
+        <img src="/images/moon.png" id="icon">
+    </div>
+    <!--language--->
+    <div id="mundi">
+        <div class="container">
+            <img src="/images/globo.png" alt="globomundi">
+            <p>Language</p>
+            <select id="language" onchange="changeLanguage()">
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="ge">Deutsch</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+    </div>
+    <div class="img_back">
+        <img src="/images/bgpd_000.jpg" id="img_back" style="border-radius: 15px;">
+    </div>
+    <!----cen-text--->
+    <div id="cen-text">
+        <div class="cen-jh">
+            <h1>Bonjour, je suis <span>Jimmie Herrera</span><br><span>Ingénieur de projet</span></h1>
+        </div>
+    </div>
+    <!---about --->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/about-00.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">A propos de moi</h1>
+                    <p>
+                        <br>Ingénieur système avec plus de 20 ans d'expérience dans les domaines techniques et
+                        d'infrastructure liés à la gestion des opérations et aux équipes de gestion des ressources
+                        technologiques. J'ai travaillé dans le domaine de l'informatique et des réseaux, de la
+                        coordination dans les domaines opérationnels et de la formation aux logiciels. En outre, j'ai
+                        travaillé à la conception de solutions technologiques dans le domaine de l'automatisation des
+                        Smart Home et Smart Building, à la certification et à l'analyse des réseaux, des trunking, du
+                        câblage structuré et de la fibre optique. Garantir les interconnexions IoT.</br>
+
+                        <br>En tant qu'ingénieur de projet et estimateur, j'ai dirigé des projets d'automatisation
+                        d'équipements de sécurité électronique, y compris l'infrastructure, la conception et la
+                        migration des bases installées, le service aux fournisseurs et le suivi des projets dans divers
+                        secteurs, tels que l'industrie, les banques, les journaux, les hôtels, les hôpitaux, les
+                        universités et les écoles, les centres de données et les maisons privées.</br>
+
+                        <br>Dans le domaine de la conception de logiciels, j'ai collaboré avec des programmeurs pour des
+                        projets de type HMIWEB prenant des signaux numériques pour interagir avec des équipements sur le
+                        terrain et afficher leur état sur des consoles d'opérateurs, telles que HVAC, Fire Panels, CCTV
+                        et Access Control.</br>
+
+                        <br>Dans le domaine du développement, j'ai des connaissances en Python, HTML et CSS. J'ai
+                        réalisé de petits projets avec ces outils.</br>
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Compétences</p>
+                        <p class="tab-links" onclick="opentab('experience')">Expérience</p>
+                        <p class="tab-links" onclick="opentab('education')">L'éducation</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Consultant</span><br>Systèmes de sécurité et d'automatisation.</li>
+                            <li><span>Projets</span><br>Gestion de projet et estimations.</li>
+                            <li><span>Infrastructure</span><br>Maisons intelligentes, bâtiments intelligents et réseaux.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2019 - Actuellement</span><br>Conseiller indépendant.</li>
+                            <li><span>2014 - 2019</span><br>Ingénieur de projet chez Honeywell.</li>
+                            <li><span>2008 - 2012</span><br>Analyste des systèmes chez Codsu Sistemas.</li>
+                            <li><span>1997 - 2002</span><br>Coordinateur IT chez Hiperespacio Corp.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2013</span><br>Ingénieur système - Université Santiago Mariño</li>
+                            <li><span>1996</span><br>Technicien informatique - Institut Eastman</li>
+                            <li><span>1994</span><br>Informatique et mathématiques - Universidad Central de Venezuela
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Mes services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Conseil</h2>
+                    <p>En tant qu'ingénieur et gestionnaire de projet, j'ai travaillé dans des domaines liés à la
+                        technologie, aux télécommunications et à la sécurité électronique. J'ai appliqué des compétences
+                        techniques telles que la planification, l'estimation, la mise en réseau, le câblage à fibre
+                        optique et à basse tension, les relations avec les clients, les présentations, l'évaluation de
+                        la faisabilité, l'estimation financière, les ressources humaines et les compétences techniques.
+                        J'ai travaillé sur des projets à partir de la base dans une construction propre avec des dessins
+                        AutoCAD, en effectuant les évaluations nécessaires avec les entrepreneurs pour l'installation de
+                        conduits de câblage structuré, de salles de données, de racks, de commutateurs et en exécutant
+                        des certifications avec des marques reconnues.</p>
+                    <a href="#">En savoir plus</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-robot"></i>
+                    <h2>Automatisation</h2>
+                    <p>L'automatisation des bâtiments intelligents est une tendance croissante dans le secteur du
+                        bâtiment. L'interconnexion d'équipements et de dispositifs par le biais de réseaux et de
+                        l'Internet des objets (IdO) permet une gestion plus efficace et plus efficiente des ressources
+                        et des services d'un bâtiment. Je propose des idées pour l'automatisation des bâtiments
+                        intelligents, des maisons et des installations industrielles interconnectées par des réseaux et
+                        l'internet des objets. En outre, j'ai créé des programmes Python simples pour faire fonctionner
+                        de petits systèmes tels que des codes-barres et des codes QR. Je propose également de petites
+                        conceptions de sites web pour les entreprises ou les particuliers qui en ont besoin.
+                    </p>
+                    <a href="#">En savoir plus</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-helmet-safety"></i>
+                    <h2>Sécurité et infrastructure</h2>
+                    <p>La sécurité des infrastructures est cruciale pour protéger les systèmes et les actifs critiques
+                        contre les menaces physiques et cybernétiques. J'ai travaillé avec des serveurs de marques
+                        telles que Hewlett Packard, Dell et Huawei avec des systèmes d'exploitation allant de Windows
+                        Server 2003 à Windows Server 2016. En outre, j'ai travaillé avec des technologies de
+                        virtualisation telles que Microsoft Hyper-V, VMware et Oracle VirtualBox. J'ai réalisé des
+                        projets de migration de données et des mises à niveau de systèmes basés sur des logiciels de
+                        fournisseurs tels que Honeywell Enterprise Building Integrator (EBI). J'ai également installé
+                        des caméras de vidéosurveillance et des systèmes de contrôle d'accès de Honeywell Digital Video
+                        Manager (DVM), Axis, Dahua et Hikvision. J'ai travaillé sur des réseaux de câblage structurés
+                        avec Hubbell et Panduit, des commutateurs Cisco et Hewlett Packard, des baies au sol et des
+                        baies murales. Je fournis les plans de câblage appropriés et l'ingénierie détaillée, ainsi que
+                        la meilleure solution possible pour la distribution de l'équipement sur le terrain.
+                    </p>
+                    <a href="#">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Values-->
+    <div id="values">
+        <div class="container">
+            <h1 class="sub-title">Mes valeurs</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/label-00.jpg">
+                    <div class="layer">
+                        <h3>La constance</h3>
+                        <p>Au cours de ma carrière dans la technologie, j'ai travaillé dans de multiples disciplines, ce
+                            qui m'a permis de développer des compétences polyvalentes et de solides valeurs éthiques et
+                            morales. Je suis toujours prêt à relever de nouveaux défis et je m'efforce de fournir des
+                            solutions de haute qualité qui répondent aux besoins de mes clients.</p>
+                        <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/label-01.jpg">
+                    <div class="layer">
+                        <h3>Communication</h3>
+                        <p>Je me considère comme une personne communicative et empathique, et j'aime parler aux gens
+                            pour comprendre leurs besoins et leurs exigences. Je crois qu'une communication ouverte est
+                            essentielle pour trouver des solutions efficaces et créatives, et je respecte toujours les
+                            critères et les opinions des autres. Avec les équipes, j'aime écouter d'abord et proposer
+                            ensuite mes idées, dans le cadre d'une conversation saine.</p>
+                        <a href="#"><i class="fa-regular fa-lightbulb"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/label-02.jpg">
+                    <div class="layer">
+                        <h3>Responsabilité</h3>
+                        <p>Je m'efforce toujours de me tenir au courant des dernières tendances et technologies, et
+                            j'utilise les ressources technologiques disponibles pour résoudre les problèmes qui relèvent
+                            de ma responsabilité. Mon dévouement et mon travail acharné ont toujours abouti à des
+                            solutions satisfaisantes pour mes clients. Comme je l'ai écrit en haut de ma page, "Nous
+                            travaillons ensemble".</p>
+                        <a href="#"><i class="fa-solid fa-network-wired"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Voir plus</a>
+        </div>
+    </div>
+    <!---Contact--->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contactez-moi à</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> jhengineeringp@gmail.com</p>
+                    <div class="social-icons">
+                        <!----Just here link to social-------------->
+                        <a href="https://linkedin.com/in/jimmieherrera" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/jimrhm" target="_blank"><i
+                                class="fa-brands fa-square-x-twitter"></i></a>
+                        <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=61554891763345" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/jimrogerherrera/" target="_blank"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <!----Just here download cv btn-------------->
+                    <a href="/documents/CVJHPP_EN2024-V1.pdf" download class="btn btn2"
+                        onclick="window.open('/documents/CVCLJHPORT-2024-V1.pdf', '_blank');">Download CV And Resume</a>
+                </div>
+                <div class="arrowup">
+                    <div class="footer-icon-top">
+                        <a href="#header"><i class="fa-solid fa-arrow-up-from-bracket"></i></a>
+                    </div>
+                </div>
+                <div id="thanks">
+                    <a href="/public/fr/frthanks.html">Remerciements</a>
+                </div>
+            </div>
+        </div>
+        <div id="copyright">
+            <div class="container">
+                <p>Under Construction <i class="fa-solid fa-person-digging"></i></p>
+                <p>copyright © JHEngineering <i class="fa-brands fa-connectdevelop"></i> Environment of Development</p>
+            </div>
+        </div>
+    </div>
+    <script src="/src/tablink.js"></script>
+    <script src="/src/sidemenu.js"></script>
+    <script src="/src/lang.js"></script>
+    <script src="/src/selectlang.js"></script>
+    <script src="/src/bnw.js"></script>
+    <script src="/src/mundi.js"></script>
+</body>
+
+</html>
