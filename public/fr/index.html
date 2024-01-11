@@ -9,9 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JH Engineer</title>
-    <link rel="stylesheet" type="text/css" href="../../style/style.css">
-    <!--<link rel="stylesheet" href="/style/style.css">-->
-    <link rel="shortcut icon" href="/images/faviconjh.png" />
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="shortcut icon" href="../../images/faviconjh.png" />
     <script src="https://kit.fontawesome.com/7406a1b21c.js" crossorigin="anonymous"></script>
 </head>
 
@@ -22,12 +21,12 @@
         </div>
     </div>
     <div class="logo">
-        <img src="/images/LogoJHEP.png" id="logoimg">
+        <img src="../../images/LogoJHEP.png" id="logoimg">
     </div>
     <div id="header">
         <div class="container">
             <nav>
-                <!---vertical barr----->
+                <!---vb----->
                 <ul id="sidemenu">
                     <!--nav--->
                     <li><a href="#header" onclick="selectOption()">Début</a></li>
@@ -35,22 +34,22 @@
                     <li><a href="#services" onclick="selectOption()">Prestations de service</a></li>
                     <li><a href="#values" onclick="selectOption()">Valeurs</a></li>
                     <li><a href="#contact" onclick="selectOption()">Contact</a></li>
-                    <!--X Barr--->
+                    
                     <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
                 </ul>
-                <!--barr Vertical---->
+                
                 <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
             </nav>
         </div>
     </div>
     <!--icon moon-->
     <div class="moon">
-        <img src="/images/moon.png" id="icon">
+        <img src="../../images/moon.png" id="icon">
     </div>
-    <!--language--->
+    <!--lang-->
     <div id="mundi">
         <div class="container">
-            <img src="/images/globo.png" alt="globomundi">
+            <img src="../../images/globo.png" alt="globomundi">
             <p>Language</p>
             <select id="language" onchange="changeLanguage()">
                 <option value="en">English</option>
@@ -61,20 +60,20 @@
         </div>
     </div>
     <div class="img_back">
-        <img src="/images/bgpd_000.jpg" id="img_back" style="border-radius: 15px;">
+        <img src="../../images/bgpd_000.jpg" id="img_back" style="border-radius: 15px;">
     </div>
-    <!----cen-text--->
+    
     <div id="cen-text">
         <div class="cen-jh">
             <h1>Bonjour, je suis <span>Jimmie Herrera</span><br><span>Ingénieur de projet</span></h1>
         </div>
     </div>
-    <!---about --->
+    
     <div id="about">
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="/images/about-00.jpg">
+                    <img src="../../images/about-00.jpg">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">A propos de moi</h1>
@@ -135,7 +134,7 @@
             </div>
         </div>
     </div>
-    <!--Services-->
+    
     <div id="services">
         <div class="container">
             <h1 class="sub-title">Mes services</h1>
@@ -189,13 +188,13 @@
             </div>
         </div>
     </div>
-    <!--Values-->
+   
     <div id="values">
         <div class="container">
             <h1 class="sub-title">Mes valeurs</h1>
             <div class="work-list">
                 <div class="work">
-                    <img src="/images/label-00.jpg">
+                    <img src="../../images/label-00.jpg">
                     <div class="layer">
                         <h3>La constance</h3>
                         <p>Au cours de ma carrière dans la technologie, j'ai travaillé dans de multiples disciplines, ce
@@ -206,7 +205,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="/images/label-01.jpg">
+                    <img src="../../images/label-01.jpg">
                     <div class="layer">
                         <h3>Communication</h3>
                         <p>Je me considère comme une personne communicative et empathique, et j'aime parler aux gens
@@ -218,7 +217,7 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="/images/label-02.jpg">
+                    <img src="../../images/label-02.jpg">
                     <div class="layer">
                         <h3>Responsabilité</h3>
                         <p>Je m'efforce toujours de me tenir au courant des dernières tendances et technologies, et
@@ -233,7 +232,7 @@
             <a href="#" class="btn">Voir plus</a>
         </div>
     </div>
-    <!---Contact--->
+    
     <div id="contact">
         <div class="container">
             <div class="row">
@@ -241,7 +240,7 @@
                     <h1 class="sub-title">Contactez-moi à</h1>
                     <p><i class="fa-solid fa-paper-plane"></i> jhengineeringp@gmail.com</p>
                     <div class="social-icons">
-                        <!----Just here link to social-------------->
+                        
                         <a href="https://linkedin.com/in/jimmieherrera" target="_blank"><i
                                 class="fa-brands fa-linkedin"></i></a>
                         <a href="https://twitter.com/jimrhm" target="_blank"><i
@@ -252,7 +251,7 @@
                         <a href="https://www.instagram.com/jimrogerherrera/" target="_blank"><i
                                 class="fa-brands fa-square-instagram"></i></a>
                     </div>
-                    <!----Just here download cv btn-------------->
+                    
                     <a href="/documents/CVJHPP_EN2024-V1.pdf" download class="btn btn2"
                         onclick="window.open('/documents/CVCLJHPORT-2024-V1.pdf', '_blank');">Download CV And Resume</a>
                 </div>
@@ -273,12 +272,12 @@
             </div>
         </div>
     </div>
-    <script src="/src/tablink.js"></script>
-    <script src="/src/sidemenu.js"></script>
-    <script src="/src/lang.js"></script>
-    <script src="/src/selectlang.js"></script>
-    <script src="/src/bnw.js"></script>
-    <script src="/src/mundi.js"></script>
+    <script src="../../src/tablink.js"></script>
+    <script src="../../src/sidemenu.js"></script>
+    <script src="../../src/lang.js"></script>
+    <script src="../../src/selectlang.js"></script>
+    <script src="../../src/bnw.js"></script>
+    <script src="../../src/mundi.js"></script>
 </body>
 
 </html>
