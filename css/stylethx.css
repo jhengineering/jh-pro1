@@ -100,7 +100,7 @@
   top: 1%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 10px;
+  padding: 20px;
 }
   .back p {
     display: flex;
@@ -111,7 +111,7 @@
       left: 30%;
       transform: translate(-50%, -50%);
       margin: 0;
-      bottom: -18em;
+      bottom: -12em;
     }
   
     .btn {
@@ -119,7 +119,7 @@
       right: 40px;
       font-size: 12px;
       margin: 5%;
-      bottom: -32em;
+      bottom: -22em;
     }
   }
  
