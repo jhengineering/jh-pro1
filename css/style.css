@@ -591,7 +591,7 @@ form .btn2 {
         position: relative;
         display: flex;
         font-size: 25px;
-        margin-left: 12cm;
+        margin-left: 10cm;
     }
 
      /*X*/
@@ -599,7 +599,7 @@ form .btn2 {
         position: relative;
         display: flex;
         font-size: 25px;
-        top: -20%;
+        top: -21%;
         right: 210%;
     }
 
