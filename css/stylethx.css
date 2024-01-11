@@ -112,6 +112,58 @@
       bottom: -38.5em;
     }
   }
+ 
+@media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 2) { 
+  /*iph x*/
+  /*h3*/
+    .back h3 {
+      left: 30%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      bottom: -24em;
+    }
+    
+    /*btn*/
+    .btn {
+      position: absolute;
+      right: 40px;
+      font-size: 12px;
+      margin: 5%;
+      bottom: -42em;
+    }
+  }
+
+@media only screen and (device-width : 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 2) { 
+    /*iphone/6/7/8/p*/
+    /*h3*/
+    
+    .back h2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px;
+    }
+
+    .back h3 {
+      left: 30%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      bottom: -30em;
+    }
+    
+    /*btn*/
+    .btn {
+      position: absolute;
+      right: 40px;
+      font-size: 12px;
+      margin: 5%;
+      bottom: -50em;
+    }
+  }  
   
   
 
