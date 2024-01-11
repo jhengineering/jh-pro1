@@ -104,14 +104,18 @@
 }
   .back p {
     display: flex;
-    padding-top: 440px;
+    margin-top: 35em;
+    max-width: 100%;
+    height: auto;
     }
 
   .back h3 {
       left: 30%;
       transform: translate(-50%, -50%);
       margin: 0;
-      bottom: -12em;
+      bottom: -20em;
+      max-width: 100%;
+    height: auto;
     }
   
     .btn {
@@ -119,7 +123,9 @@
       right: 40px;
       font-size: 12px;
       margin: 5%;
-      bottom: -22em;
+      bottom: -35em;
+      max-width: 100%;
+      height: auto;
     }
   }
  
