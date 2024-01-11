@@ -831,3 +831,55 @@ form .btn2 {
         right: 3cm;
     }
 }
+
+
+@media only screen and (device-width : 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 2) { 
+    /*iphone/6/7/8/p*/
+
+    /*bar*/
+    nav .fas {
+        position: relative;
+        display: flex;
+        font-size: 25px;
+        margin-left: 5cm;
+        padding: 6px;
+    }
+
+    /*X*/
+    nav ul .fas {
+        position: relative;
+        display: flex;
+        font-size: 25px;
+        top: -21%;
+        right: 150%;
+    }
+
+      /*lang*/
+    #mundi .container {
+        display: flex;
+        position: relative;
+        font-size: 14px;
+        right: 40%;
+        padding-top: 2%;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    #language {
+        display: flex;
+        position: relative;
+        font-size: 10px;
+        height: auto;
+    }
+
+    /*txt*/  
+    #cen-text {
+        display: flex;
+        margin-left: 17%;
+        font-size: 10px;
+        top: 17em;
+        max-width: 100%;
+        height: auto;
+    }  
+
+  }
