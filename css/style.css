@@ -841,7 +841,7 @@ form .btn2 {
         position: relative;
         display: flex;
         font-size: 25px;
-        margin-left: 5cm;
+        margin-left: 10cm;
         padding: 6px;
     }
 
@@ -851,7 +851,7 @@ form .btn2 {
         display: flex;
         font-size: 25px;
         top: -21%;
-        right: 150%;
+        right: 180%;
     }
 
       /*lang*/
@@ -875,9 +875,9 @@ form .btn2 {
     /*txt*/  
     #cen-text {
         display: flex;
-        margin-left: 17%;
+        margin-left: 15%;
         font-size: 10px;
-        top: 17em;
+        top: 15em;
         max-width: 100%;
         height: auto;
     }  
