@@ -132,6 +132,24 @@
 @media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 2) { 
   /*iph x*/
   /*h3*/
+     .back h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+  }
+    
+     .back p {
+    display: flex;
+    margin-top: 25em;
+    max-width: 100%;
+    height: auto;
+    }
+    
     .back h3 {
       left: 30%;
       transform: translate(-50%, -50%);
