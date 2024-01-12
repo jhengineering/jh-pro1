@@ -115,7 +115,7 @@
       margin: 0;
       bottom: -32em;
       max-width: 100%;
-    height: auto;
+      height: auto;
     }
   
     .btn {
@@ -145,7 +145,7 @@
     
      .back p {
     display: flex;
-    margin-top: 25em;
+    margin-top: 31em;
     max-width: 100%;
     height: auto;
     }
@@ -155,6 +155,8 @@
       transform: translate(-50%, -50%);
       margin: 0;
       bottom: -27em;
+      max-width: 100%;
+      height: auto;
     }
     
     /*btn*/
@@ -164,6 +166,8 @@
       font-size: 12px;
       margin: 5%;
       bottom: -47em;
+      max-width: 100%;
+      height: auto;
     }
   }
 
