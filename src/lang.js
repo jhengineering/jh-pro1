@@ -10,10 +10,10 @@ function changeLanguage() {
         window.location.href = "public/es/index.html";
     }else if (language == "ge") {
         // Change to Germany
-        window.location.href = "public/ge/index.html";
+        window.location.href = "https://jhengineering.github.io/jh-pro1/public/ge/index.html";
     }else if (language == "fr") {
       // Change to Français
-        window.location.href = "public/fr/index.html";
+        window.location.href = "https://jhengineering.github.io/jh-pro1/public/fr/index.html";
     }
       
   }
