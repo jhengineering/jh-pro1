@@ -15,7 +15,6 @@ function changeLanguage() {
       // Change to Français
         window.location.href = "https://jhengineering.github.io/jh-pro1/public/fr/index.html";
     }
-      
-  }
+}
   
   
