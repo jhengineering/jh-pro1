@@ -4,7 +4,7 @@ function changeLanguage() {
     var language = document.getElementById("language").value;
     if (language == "en") {
       // Change to English
-        window.location.href = "index.html";
+        window.location.href = "https://jhengineering.github.io/jh-pro1/index.html";
     }else if (language == "es") {
       // Change to Español
         window.location.href = "https://jhengineering.github.io/jh-pro1/public/es/index.html";
