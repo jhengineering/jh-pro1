@@ -791,7 +791,7 @@ form .btn2 {
         cursor: pointer;
         position: absolute;
         right: 3cm;
-        top: 1em;
+        top: 2.3%;
         height: auto;
     }
 
@@ -827,8 +827,10 @@ form .btn2 {
     #thanks {
         max-width: 100%;
         height: auto;
-        top: 33em;
+        top: 30em;
         right: 3cm;
+        max-width: 100%;
+        height: auto;
     }
 }
 
