@@ -91,7 +91,7 @@
 /*@media*/
 
 @media only screen and (max-width: 600px) {
-    
+    /*goo*/
   .back h2 {
   display: flex;
   justify-content: center;
@@ -130,7 +130,7 @@
   }
  
 @media only screen and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 2) { 
-  /*iph x*/
+  /*XR*/
   /*h3*/
      .back h2 {
     display: flex;
