@@ -681,7 +681,7 @@ form .btn2 {
     /*txt*/  
     #cen-text {
         display: flex;
-        margin-left: 18%;
+        margin-left: -20%;
         font-size: 10px;
         top: 21em;
         max-width: 100%;
